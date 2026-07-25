@@ -6,10 +6,10 @@
 
 **Unix (Linux / macOS)**
 ```sh
-git clone <REPO_URL> ~/.config/helix
+git clone git@github.com:VimHater/helix_config.git ~/.config/helix
 ```
 
 **Windows (PowerShell)**
 ```powershell
-git clone <REPO_URL> $env:APPDATA\helix
+git clone git@github.com:VimHater/helix_config.git $env:APPDATA\helix
 ```
