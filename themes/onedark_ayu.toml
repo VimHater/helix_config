@@ -1,0 +1,36 @@
+inherits = "ayu_dark"
+
+# nvim onedark(darker) base bg + ayu syntax palette
+"ui.background" = { bg = "#0F1419" }
+"ui.linenr" = "#4d5566"                              # LineNr fg
+"ui.linenr.selected" = { fg = "#e6b450" }            # CursorLineNr (ayu accent)
+"ui.cursorline" = { bg = "#151b21" }
+"ui.virtual.indent-guide" = { fg = "#565b66" }       # grey (helix has no current-scope variant)
+"ui.menu" = { fg = "#FFFFFF", bg = "#1E1E1F" }       # BlinkCmpMenu
+"ui.popup" = { fg = "#bfbdb6", bg = "#1E1E1F" }      # NormalFloat
+"ui.help" = { fg = "#bfbdb6", bg = "#1E1E1F" }
+"ui.cursor" = { fg = "#FFFCF9", bg = "#F29718" }     # nvim NormalCursor/InsertCursor
+"ui.cursor.primary" = { fg = "#FFFCF9", bg = "#F29718" }
+"ui.cursor.primary.insert" = { fg = "#0F1419", bg = "#8a9199" }   # grey bar in insert
+"ui.cursor.insert" = { fg = "#0F1419", bg = "#8a9199" }           # secondary cursors, insert
+
+# statusbar base = nvim StatusLine (green bar, black text)
+"ui.statusline" = { fg = "#000000", bg = "#98c379" }
+"ui.statusline.inactive" = { fg = "#565b66", bg = "#1F1F1E" }   # StatusLineNC
+
+# mode blocks = nvim mode_map (active)
+"ui.statusline.normal" = { fg = "#282c34", bg = "#98FF79" }   # bright green
+"ui.statusline.insert" = { fg = "#282c34", bg = "#61afef" }   # blue
+"ui.statusline.select" = { fg = "#282c34", bg = "#c678dd" }   # purple
+
+[palette]
+foreground = "#bfbdb6"
+red = "#f07178"
+orange = "#ff8f40"
+yellow = "#e6b450"
+green = "#7fd962"
+cyan = "#39bae6"
+blue = "#59c2ff"
+magenta = "#d2a6ff"
+gray = "#8a9199"
+dark_gray = "#565b66"

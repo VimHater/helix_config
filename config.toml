@@ -1,0 +1,83 @@
+theme = "onedark_ayu"
+
+[editor]
+default-yank-register = "+"
+line-number = "absolute"
+scrolloff = 12
+cursorline = true
+color-modes = true
+completion-trigger-len = 0
+completion-timeout = 100
+auto-format = false
+bufferline = "never"
+true-color = true
+popup-border = "none"
+trim-trailing-whitespace = true
+
+[editor.cursor-shape]
+normal = "block"
+insert = "block"
+select = "block"
+
+[editor.soft-wrap]
+enable = true
+wrap-indicator = ""
+
+[editor.inline-diagnostics]
+cursor-line = "disable"
+other-lines = "disable"
+
+[editor.whitespace]
+render = "none"
+
+[editor.whitespace.characters]
+space = "-"
+tab = "→"
+
+[editor.lsp]
+display-inlay-hints = false
+display-messages = true
+auto-signature-help = true
+
+[editor.indent-guides]
+render = true
+character = "▏"
+
+[editor.statusline]
+left = ["mode", "file-base-name", "file-modification-indicator"]
+center = []
+right = ["primary-selection-length", "position-percentage"]
+separator = ""
+
+[editor.statusline.mode]
+normal = "N"
+insert = "I"
+select = "V"
+
+[keys.normal]
+C-h = "jump_view_left"
+C-j = "jump_view_down"
+C-k = "jump_view_up"
+C-l = "jump_view_right"
+C-q = ":quit"
+S-h = ":buffer-previous"
+S-l= ":buffer-next"
+
+[keys.normal.space]
+a = "select_all"
+e = "file_explorer"
+"|" = "vsplit"
+"-" = "hsplit"
+
+[keys.select]
+C-h = "jump_view_left"
+C-j = "jump_view_down"
+C-k = "jump_view_up"
+C-l = "jump_view_right"
+
+[keys.insert]
+C-a = "goto_line_start"
+C-e = "goto_line_end_newline"
+C-w = "delete_word_backward"
+C-k = "kill_to_line_end"
+C-u = "kill_to_line_start"
