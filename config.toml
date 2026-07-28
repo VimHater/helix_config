@@ -62,7 +62,7 @@ C-l = "jump_view_right"
 C-q = ":quit"
 S-h = ":buffer-previous"
 S-l= ":buffer-next"
-
+X = ["extend_line_up", "extend_to_line_bounds"]
 [keys.normal.space]
 a = "select_all"
 e = "file_explorer"
