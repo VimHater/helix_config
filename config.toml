@@ -1,7 +1,7 @@
 theme = "onedark_ayu"
 
 [editor]
-default-yank-register = "+"
+# default-yank-register = "+"
 line-number = "absolute"
 scrolloff = 12
 cursorline = true
